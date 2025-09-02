@@ -1,0 +1,803 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+header{
+    height:105vh;
+    width:100%;
+    background: #5b3982;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    height:100px;
+    width:100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 60px;
+    position: relative;
+}
+.logo img{
+    height:70px;
+    width:150px;
+}
+.menu2 img{
+    height:25px;
+    width:25px;
+    margin-top: 3px;
+}
+.menu2{
+    margin-top: 3px;
+}
+.menu,.menu2{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.logo2{
+    display: flex;
+    gap:60px;
+    margin-top: 10px;
+}
+.menu li a{
+    color:black;
+    font-size: 19.2px;
+    font-weight: 500;
+}
+.menu2 li a{
+    color:black;
+    font-size: 23px;
+    
+}
+.menu li:hover a{
+    transition: 0.5s;
+    cursor: pointer;
+    color:rgb(41, 235, 23);
+}
+.menu2 img{
+    animation: husnain 3s ;
+}
+@keyframes husnain {
+    0%{
+        
+        transform: translateY(-80px);
+    }
+    100%{
+        margin: 0;
+    }
+}
+.menu2{
+    animation: husnain1 2s ;
+}
+@keyframes husnain1 {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        margin: 0;
+    }
+}
+.box{
+    display: flex;
+}
+.box div{
+    width:50%;
+    height:70%;
+}
+.box1{
+    margin-top: 130px;
+    
+}
+.box1 h4{
+    color:rgb(255, 255, 255);
+    font-size: 24.4px;
+    margin-left: 74px;
+    font-weight: 500;
+}
+.box1 h1{
+     color:rgb(255, 255, 255);
+    font-size: 59.2px;
+    margin-left: 70px;
+    font-weight: 600;
+}
+.box1 h1#o1{
+    margin-top: -19px;
+}
+h1 span{
+    color:#83d803;
+}
+.box1 p{
+      color:rgb(255, 255, 255);
+    font-size: 16.5px;
+    margin-left: 70px;
+    font-weight: 400;
+}
+button.but{
+      color:rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: 72px;
+    font-weight: 500;
+    margin-top: 20px;
+    height:55px;
+    width:160px;
+    background: #83d803;
+    border:none;
+    border-radius: 5px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.box2 img{
+   
+    height:600px;
+   
+}
+.box3 img{
+    height:150px;
+    width:100%;
+    margin-top: -65px;
+    position: absolute;
+}
+.page01 img:hover{
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.06);
+}
+.box2 img{
+    animation: pp 3s;
+}
+@keyframes pp {
+    0%{
+        transform: translateX(300px);
+    }
+}
+.box1{
+    animation: pp1 3s;
+}
+@keyframes pp1 {
+    0%{
+        transform: translateX(-300px);
+    }
+}
+button.but:hover{
+    background: black;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.5s ease-in-out;
+}
+.logo3{
+    display: none;
+}
+.page1{
+    height:80vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page01 img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    transition: 0.6s ease-in-out;
+
+}
+.page01{
+    display: flex;
+    gap:90px;
+    margin-top: 40px;
+}
+.page1 h1, #o2,#o4,.sign h1{
+    color:#212529;
+    font-size: 38px;
+    font-weight: 600;
+}
+.page1 p,#o3,.sign p{
+    color:#424242;
+    font-size: 18px;
+    margin-top: 1px;
+}
+.page01 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.page01 h2{
+    color:#424242;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.page3{
+    height:60vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.page3 div{
+    height:300px;
+    width:520px;
+    border-radius: 5px;
+}
+.page31{
+    background: #008ada;
+}
+.page32{
+    background: #99ce58;
+}
+.page31,.page32{
+    display: flex;
+
+}
+.page3 h1{
+    margin-left: 30px;
+    font-weight: 500;
+    color:white;
+}
+.page3 .text{
+    height:100%;
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page3 p{
+    margin-left: 30px;
+    color:rgb(230, 224, 224);
+    font-size: 18px;
+}
+.page3 .picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.but1{
+      height:52px;
+    width:150px;
+    background: black;
+    border:none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+      color:rgb(255, 255, 255);
+    font-size: 18px;
+}
+button.but1:hover{
+    background: white;
+    color:black;
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#o3,#o2,#o4{
+text-align: center;
+}
+#o4{
+    margin-top: 170px;
+}
+#o2{
+    margin-top: 70px;
+}
+.page10{
+    height:150vh;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
+    gap:40px;
+}
+.card{
+    height:480px;
+    width:340px;
+    background: #f4f4f4;
+}
+.photo{
+    height:280px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    height:200px;
+    width:120px;
+}
+ .card h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color:rgb(34, 34, 34);
+    margin-top: 5px;
+padding: 0px 20px;
+}
+.icon{
+    text-align: center;
+    margin-top: 3px;
+    display: flex;
+    gap:6px;
+    justify-content: center;
+}
+.icon a{
+    font-size: 21px;
+    color:#ffd700;
+}
+.card h2{
+     text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color:rgb(34, 34, 34);
+    margin-top: 3px;
+
+}
+.icon2{
+    text-align: center;
+    
+
+   
+}
+.icon2 button{
+ height:53px;
+    width:290px;
+    border:none;
+    background-color: #83d803;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.page111{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box100{
+background: #f4f4f4;
+height:440px;
+width:890px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.box100 img{
+    margin-top: 50px;
+}
+.box100 h2{
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: -2px;
+}
+.box100 p{
+    text-align: center;
+    padding: 20px 70px;
+    font-size: 17px;
+    color:rgba(41, 40, 40, 0.849);
+}
+
+.login{
+    height:100vh;
+    width:85%;
+    margin: auto;
+    
+}
+.login{
+    display: flex;
+    gap:10px;
+}
+.login .photo1{
+    height:100%;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    
+    height:100%;
+    width:700px;
+}
+.sign h1{
+    text-align: center;
+    margin-top: 35px;
+}
+.sign p{
+    text-align: center;
+}
+.sign1{
+    display: flex;
+    gap:10px;
+    margin-top: 30px;
+}
+ .sign1 input{
+    width:50%;
+    height:54px;
+    padding: 0px 10px;
+    border:none;
+    outline: none;
+border:1px solid rgba(129, 127, 127, 0.568);
+font-size: 21px;
+ }
+ .sign2{
+    display: flex;
+    margin-top: 15px;
+ }
+ .sign2 input{
+      width:100%;
+    height:54px;
+    padding: 0px 10px;
+    border:none;
+    outline: none;
+border:1px solid rgba(129, 127, 127, 0.568);
+font-size: 21px;
+ }
+.sign3{
+    width:100%;
+    height:54px;
+    margin-top: 15px;
+border:1px solid rgba(129, 127, 127, 0.568);
+
+}
+.sign3 select{
+    height:100%;
+    width:98%;
+    border:none;
+    outline: none;
+    font-size: 21px;
+    padding: 0px 10px;
+}
+.sign3:hover{
+    box-shadow: 0px 4px 15px rgb(16, 250, 238);
+    border:none;
+}
+.sign4{
+    display: flex;
+    margin-top: 15px;
+}
+.sign4 input{
+    height:200px;
+    width:100%;
+    padding: 0px 10px;
+    padding-bottom: 150px;
+    font-size: 18px;
+    border:none;
+    outline: none;
+border:1px solid rgba(129, 127, 127, 0.568);
+
+}
+button.but5{
+    width: 100%;
+    border: 5px;
+    height:54px;
+ margin-top: 15px;
+ border:none;
+background: #83d803;
+ color:white;
+ border-radius: 5px;
+ font-size: 21px;
+}
+button.but5:hover{
+    cursor: pointer;
+    background: black;
+    transition: 0.5s;
+    transform: scale(1.02);
+    
+}
+.last{
+    height:70vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    gap:80px;
+    background: #5b3982;
+    margin-top: 100px;
+}
+.last h1{
+    color:white;
+    font-weight: 500;
+    font-size: 27px;
+    
+}
+.last1 h1{
+    margin-top: -20px;
+}
+.last p{
+    color:rgb(230, 225, 225);
+height:100px;
+width:250px;
+margin-top: 30px;
+
+}
+.lasticon{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.lasticon a{
+    color:white;
+    font-size: 25px;
+}
+.lastul{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  font-size: 19px;
+}
+.lastul li{
+    color:rgb(230, 225, 225);
+    
+    font-weight: 400;
+}
+.last4 h1{
+    margin-top: 150px;
+}
+
+.last5{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.last input{
+    height: 45px;
+    border-radius: 1px;
+    border:none;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 19px;
+}
+.last button{
+    height: 52px;
+    border-radius: 1px;
+    border:none;
+    outline: none;
+  color:white;
+    font-size: 19px;
+background: #83d803;
+
+}
+
+.lastul li:hover{
+    transition: 0.5s;
+    color: #b0f754;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+   .logo3{
+    display: block;
+   }
+   nav{
+    transition: 1.5s;
+   }
+   .menu{
+    position: absolute;
+    flex-direction: column;
+    margin-top: -50px;
+    animation: none;
+    gap:0;
+    gap:5px;
+   }
+  .logo2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+  }
+  
+   .menu2{
+    animation: none;
+    margin-top: 130px;
+    margin-left: -350px;
+   }
+   .menu{
+    margin-left: -80px;
+   }
+   .menu2 img{
+    animation: none;
+   }
+   .logo2{
+    display: none;
+   }
+   .active{
+    display: block;
+}
+.active1{
+    height:300px;
+    transition: 1.5s;
+}
+.active1 .logo{
+    margin-top: -200px;
+}
+.active1 .logo3{
+    margin-top: -200px;
+}
+.logo3 a{
+    color:#aa3dc8;
+    font-size: 33px;
+}
+header{
+    height:164vh;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box div{
+    width:100%;
+}
+.box2 img{
+    height:530px;
+}
+.box3{
+    height:100px;
+    width:100%;
+    margin-top: -50px;
+}
+.page1{
+    height:100vh;
+    overflow: hidden;
+}
+.page01{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+}
+.page1 h1{
+    font-size: 35px;
+}
+.page1 p{
+    text-align: center;
+    padding: 0px 5px;
+}
+.page3{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 70px;
+}
+.card4,.card5,.card6{
+height:510px;
+}
+#o4{
+    margin-top: 20px;
+}
+.page10{
+    height:500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.box100{
+
+    width:90%;
+    height:75%;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign{
+    width:600px;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 700px;
+    height:110vh;
+    padding: 0px 50px;
+    align-items: start;
+
+}
+.last1 h1{
+    margin-top: 50px;
+}
+.last2 h1{
+    margin-top: 50px;
+}
+.last4 h1{
+    margin-top: -40px;
+}
+.last3 h1{
+    margin-top: -40px;
+}
+ 
+}
+@media screen and (max-width:640px) {
+    .menu2{
+        margin-left: -22px;
+    }
+    .menu{
+        margin-left: -15px;
+    }
+    .box1 h1{
+        font-size: 45px;
+        
+    }
+    .page3 div{
+        width:470px;
+    }
+    .page3 h1{
+        font-size: 25px;
+    }
+   
+    .box100{
+margin-left: 10px;
+    width:95%;
+    height:76%;
+}
+.box100 p{
+    padding: 5px 10px;
+}
+.sign{
+    width:400px;
+}
+.last{
+    height:auto;
+}
+}
